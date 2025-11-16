@@ -74,6 +74,7 @@ class _MainAppState extends State<MainApp> {
   }
 
   Widget _buildResult() {
+    //oook
     if (_loading) return const Center(child: CircularProgressIndicator());
     if (_error != null) {
       return Padding(
